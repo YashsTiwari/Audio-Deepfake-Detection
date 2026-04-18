@@ -36,7 +36,7 @@ warnings.filterwarnings("ignore")
 # ── Paths ─────────────────────────────────────────────────────────
 DETECTOR_DIR   = Path(__file__).parent
 MODEL_DIR      = DETECTOR_DIR / "detector_models"
-THRESHOLD_FILE = DETECTOR_DIR / "analysis" / "hardcode_thresholds.json"
+THRESHOLD_FILE = DETECTOR_DIR / "analysis" / "hyperparam_thresholds.json"
 XGBOOST_MODEL  = MODEL_DIR / "xgboost_detector.pkl"
 AASIST_DIR     = DETECTOR_DIR / "aasist"
 
